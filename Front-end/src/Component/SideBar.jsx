@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // Fix the import path - "store" should be "Store" (capital S)
 import { useChatStore } from "../Store/useChatStore";
-import SidebarSkeleton from "./skeletons/SidebarSkeleton";
+import SidebarSkeleton from "./skeletons/SideBarSkeleton";
 import { Users } from "lucide-react";
 import { useUserAuthStore } from "../Store/userAuthStore";
 
