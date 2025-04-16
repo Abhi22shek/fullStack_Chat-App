@@ -11,7 +11,7 @@ import { useUserAuthStore } from './Store/userAuthStore';
 import {Loader} from 'lucide-react'
 import { Toaster } from 'react-hot-toast';
 import { useThemeStore } from './Store/useThemeStore';
-import Home from './Pages/home';
+import Home from './Pages/Home';
 const App = () => {
   const {authUser,isCheckingAuth,checkAuth} = useUserAuthStore()
   
